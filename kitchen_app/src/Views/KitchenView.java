@@ -117,7 +117,7 @@ public class KitchenView {
         brandSection.setBackground(new Color(228,249,245));
         
         JLabel brandImage = new JLabel();
-        URL imgURL = getClass().getResource("../image/logo.png");
+        URL imgURL = getClass().getResource("/image/logo.png");
         brandImage.setIcon(new ImageIcon(imgURL));
         
         JLabel brandText = new JLabel("Ting\u2022Coffee – The Best Coffee and Espresso Drinks");
@@ -140,7 +140,7 @@ public class KitchenView {
         dashboardTitle.setForeground(new Color(41,55,72));
         dashboardTitle.setAlignmentX(Component.CENTER_ALIGNMENT);
         
-        URL dashboardURL = getClass().getResource("../image/refresh.png");
+        URL dashboardURL = getClass().getResource("/image/refresh.png");
         JLabel dashboardIcon = new JLabel(new ImageIcon(dashboardURL));
         dashboardIcon.setAlignmentX(Component.CENTER_ALIGNMENT);
         
@@ -171,7 +171,7 @@ public class KitchenView {
         helpTitle.setForeground(new Color(41,55,72));
         helpTitle.setAlignmentX(Component.CENTER_ALIGNMENT);
         
-        URL helpURL = getClass().getResource("../image/info.png");
+        URL helpURL = getClass().getResource("/image/info.png");
         JLabel helpIcon = new JLabel(new ImageIcon(helpURL));
         helpIcon.setAlignmentX(Component.CENTER_ALIGNMENT);
         
